@@ -1,4 +1,4 @@
 # food-magazine
-# it is webdevelopment module project: they required five pages of pure css,html,js with no use of any external library or bundle
-#now im planning to make it using angular with backend support using node or springBoot to enforce what i have learnt so far 
-# i made sure that it is responsive with simple background and relaxing colors 
+# It is a web development module project: they required five pages of pure CSS, HTML, and JS with no use of any external library or bundle
+# Now I'm planning to make it using angular with backend support using node or spring boot to enforce what I have learned so far 
+# I made sure that it is responsive with a simple background and relaxing colors 
