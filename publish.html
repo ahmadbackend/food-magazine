@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="menu">
+           <li><a href="index.html"> <img src="Assets/logo.jpg" alt="logo" id="logo"></a></li> 
+           <li><a href="publish.html">publish your recipe and earn </a></li>
+            <li><a href="trends.html">trends and news </a></li>
+            <li><a href="tips.html">kitchen tips</a></li>
+            <li> <a href="meals.html">meals</a></li>
+        </ul>
+    </nav>
+    <header id="publish-header">
+        <h1> how and what will you earn????</h1>
+        <ul>
+            <li>
+                 will the answer is simple; invent you own new recipe; it might be modified from famious one
+            </li>
+            <li>
+                give us detailed ingredients and procedures. video is required
+            </li>
+            <li>
+                we will publish it under your name
+            </li>
+            <li>
+                the one that collect highest score based on monthly reviews wins
+            </li>
+        </ul>
+        <p>
+             in case of <b>plagiarism</b> you won`t be allowed to publish anymore with us
+        </p>
+        <h3>
+            What will you earn???
+        </h3>
+        <p>
+            vourcher of 300USD from Amazon. that is all?? <b>Nooooo</b>, you want sponsor for your dream restaurant?
+            <b> guess what?</b> we will help you in this also. So, we grow together 
+        </p>
+    </header>
+    <form id="publish-body">
+        <div class="block">
+            <label for="first">First name:</label>
+            <input type="text" id="first" name="first">
+        </div>
+
+        <div class="block">
+            <label for="last">last name:</label>
+            <input type="text" id="last" name="last">
+        </div>
+
+        <div class="block">
+            <label for="email">your Email:</label>
+            <input type="email" id=" email" name="email">
+        </div>
+        <div class="block">
+            <label for="recipe">recipe name:</label>
+            <input type="text" id="recipe" name="recipe">
+        </div>
+        <!-- when you click the button a new pair of item&amount is generated-->
+        <div class="block">
+            <button type="button" id="ingr">add ingredients</button>
+        </div>
+        <!-- appear only when content is being added-->
+            <div id="text" class="publish-inv">
+
+        </div>
+        <div class="block">
+            <label for="procedures" id="steps"></label>
+            <textarea id="procedures" name="procedures" cols="50" rows="5" placeholder="write your procedures"></textarea>
+        </div>
+        <div class="block">
+                <!-- setting video size -->
+            <!--will validated the uploaded file format and size through index.js-->
+            <input type="file" id="file" name="file" accept=".rar, .zip">
+            <button type="button" id="uploadButton">Upload File</button>
+            <p class="small-notice"> only compressed files are allowed. maximum size 50MB</p>
+            <p id="validationMessage"></p>
+        </div>
+        
+        <div class="block">
+            <button type="submit" id="submit">Send to win</button>
+        </div>
+    </form>
+    <!-- does not need separate js file as it is small functionality-->
+    <footer>
+        <h3> subscribe to receive our latest news and know lates trends </h3>
+        <form>
+            <label for="email" name="email">Enter your email:</label>
+            <input type="email" id="email"> 
+            <button type="submit">Subscribe </button>
+        </form>  
+        <h3> investor and searching for a talent cheif??</h3>
+        <form>
+            <label for="invest" name="invest">Enter your email:</label>
+            <input type="email" id="invest"> 
+            <button type="submit">contact us </button>
+        </form>      
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>
